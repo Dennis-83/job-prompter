@@ -6,7 +6,7 @@
 // console.log("Marketing is een leuke afdeling om te werken. " + departments.marketing.description + ".");
 // console .log("De afdeling Customer Service heeft " + departments["customer-service"].numberOfEmployees + " medewerkers");
 // console.log("Sales is een uitdagende afdeling om te werken als Verkoopmanager. " + departments.sales.jobs[1].description);
-//
+
 
 //          Opdracht 2          //
 
@@ -29,7 +29,7 @@
 //     "0: ["+ departments.marketing.jobs[0].title +  "],\n" +
 //     "1: ["+ departments.marketing.jobs[1].title +  "],\n" +
 //     "2: ["+ departments.marketing.jobs[2].title +  "],\n" +
-//     "3: ["+ departments.marketing.jobs[3].title +  "],\n");
+//     "3: ["+ departments.marketing.jobs[3].title +  "]");
 // console.log(newInput);
 //
 // switch (newInput) {
@@ -65,7 +65,7 @@
 //         "0: [" + departments[userInput2].jobs[0].title + "],\n" +
 //         "1: [" + departments[userInput2].jobs[1].title + "],\n" +
 //         "2: [" + departments[userInput2].jobs[2].title + "],\n" +
-//         "3: [" + departments[userInput2].jobs[3].title + "],\n");
+//         "3: [" + departments[userInput2].jobs[3].title + "]");
 //
 //     switch (newInput2) {
 //         case "0":
@@ -93,12 +93,12 @@
 //          Opdracht 5              //
 
 // document.getElementById('role-title').textContent = 'banaan!';
-
+//
 // const userInput3 = prompt("Input hier:");
 //
 // document.getElementById("error-message").textContent = userInput3;
 
-const userInput3 = prompt("Over welke afdeling wil je meer informatie? Kies uit: [marketing / sales / customer-service]");
+const userInput3 = prompt(`Over welke afdeling wil je meer informatie? Kies uit: [marketing / sales / customer-service]`);
 
 
 if (userInput3 === "sales" || userInput3 === "marketing" || userInput3 === "customer-service") {
@@ -120,22 +120,6 @@ if (userInput3 === "sales" || userInput3 === "marketing" || userInput3 === "cust
 } else {
     document.getElementById("error-message").textContent = "Ongeldige keuze. Probeer het opnieuw door de pagina te verversen.";
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
